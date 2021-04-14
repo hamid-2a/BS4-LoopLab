@@ -1,0 +1,48 @@
+$blue: #3292a6;
+$primary: #007bff;
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+nav {
+    border-bottom: 3px solid rgb(120, 172, 241);
+    background-color: rgba(63, 63, 63, 0.918);
+
+    .nav-link {
+        font-size: 1rem;
+    }
+}
+
+#home {
+    background-image: url(../images/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .bg-img {
+        //backdrop-filter: blur(7px);
+        background-color: #000000af;
+    }
+}
+
+.check-icon-light {
+    color: #3292a6;
+    background-color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.check-icon-dark {
+    color: #FFF;
+    background-color: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#signUpForm {
+    background-color: #007bffc9;
+}
+
+.form-control {
+    background-color: #f1f1f1d8;
+}
